@@ -18,6 +18,20 @@ Produces a structured markdown spec covering problem statement, product requirem
 git clone https://github.com/blader/schematic.git ~/.claude/skills/schematic
 ```
 
+To install a specific branch:
+
+```bash
+git clone -b <branch> https://github.com/blader/schematic.git ~/.claude/skills/schematic
+```
+
+If already installed, switch branches:
+
+```bash
+cd ~/.claude/skills/schematic
+git fetch origin
+git checkout <branch>
+```
+
 Restart Claude Code to pick up the new skill.
 
 ### Codex
